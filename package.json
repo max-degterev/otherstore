@@ -1,0 +1,32 @@
+{
+  "name": "otherstore",
+  "version": "0.0.1",
+  "description": "Persistent localStorage with Cookie fallback",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/suprMax/otherstore.git"
+  },
+
+  "keywords": [
+    "localStorage",
+    "storage"
+  ],
+
+  "scripts": {
+    "build": "babel -w src -d dist",
+    "watch": "npm run build -- -w"
+  },
+  "author": "Max Degterev <max@degterev.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/suprMax/otherstore/issues"
+  },
+  "main": "./dist/lib.js",
+  "devDependencies": {
+    "babel-cli": "6.0.0",
+    "babel-preset-es2015": "^6.5.0"
+  },
+  "engines": {
+    "node": ">=4.2"
+  }
+}
