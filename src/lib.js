@@ -204,4 +204,4 @@ let OtherStore = {
   },
 };
 
-export default OtherStore;
+module.exports = OtherStore;

@@ -1,8 +1,5 @@
 "use strict";
 
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
 /**
  * Otherstore localStorage wrapper
  *
@@ -203,4 +200,4 @@ var OtherStore = {
   }
 };
 
-exports.default = OtherStore;
+module.exports = OtherStore;
